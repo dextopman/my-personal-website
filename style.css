@@ -178,9 +178,6 @@ span{
     font-size: 18px;
     margin: 25px 0 30px;
 }
-.home-content response-center {
-    align-content: center;
-}
 .btn-box{
     width: 345px;
     display: flex;
@@ -348,36 +345,43 @@ span{
 
 }
 .footer .social a:hover{
-    background-color: orangered;
+    
+background-color: orangered;
     color: white;
     box-shadow: 0 0 25px orangered;
+    
 }
 
 @media (max-width: 900px) {
-    .header{
-        padding: 20px 5%;
-    }
-    .home {
-        flex-direction: column;
-        gap: 2em;
-        padding: 80px 4% 0;
-        min-height: unset;
-    }
-    .about {
-        flex-direction: column;
-        gap: 3em;
-        padding: 20px 4%;
-    }
-    .about-img img {
-        width: 300px;
-    }
+  .header {
+    padding: 20px 4%;
+  }
+  .home {
+    flex-direction: column;
+    gap: 2em;
+    padding: 80px 4% 0;
+    min-height: unset;
+  }
+  .about {
+    flex-direction: column;
+    gap: 2em;
+    padding: 20% 4%;
+  }
+  .about-img img {
+    width: 300px;
+  }
 }
 
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
     align-items: flex-start;
-    padding: 12px 2%;
+    padding: 8px 2%;
+    position: static;
+    z-index: 100;
+  }
+  .home {
+    padding: 12px;
   }
   .navbar {
     flex-direction: column;
@@ -409,4 +413,3 @@ span{
     padding: 0 0.5em;
   }
 }
-
