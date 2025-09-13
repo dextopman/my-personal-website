@@ -348,7 +348,65 @@ span{
 
 }
 .footer .social a:hover{
-    
-rgb(115, 111, 111)rgb(162, 157, 157)rgb(219, 214, 214)rgb(232, 221, 221)
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 0 25px orangered;
+}
+
+@media (max-width: 900px) {
+    .header{
+        padding: 20px 5%;
+    }
+    .home {
+        flex-direction: column;
+        gap: 2em;
+        padding: 80px 4% 0;
+        min-height: unset;
+    }
+    .about {
+        flex-direction: column;
+        gap: 3em;
+        padding: 20px 4%;
+    }
+    .about-img img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 2%;
+  }
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar a, .subnav .subnavbtn {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  .home-content h1 {
+    font-size: 32px;
+  }
+  .home-content h3 {
+    font-size: 24px;
+  }
+  .about-content h2, .about-content h3 {
+    font-size: 28px;
+  }
+  .about-img img {
+    width: 180px;
+  }
+  .btn-box {
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+  }
+  .projects-grid {
+    gap: 1em;
+    padding: 0 0.5em;
+  }
 }
 
