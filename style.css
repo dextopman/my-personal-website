@@ -393,6 +393,9 @@ background-color: orangered;
         background: rgba(255,69,0,0.1);
         color: orangered;
     }
+    .navbar a.active {
+        border-bottom: 3px solid transparent;
+    }
     .subnav {
         width: 100%;
     }
@@ -455,6 +458,9 @@ background-color: orangered;
         background: rgba(255,69,0,0.1);
         color: orangered;
     }
+        .navbar a.active {
+                border-bottom: 3px solid transparent;
+        }
     .subnav {
         width: 100%;
     }
