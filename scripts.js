@@ -49,3 +49,11 @@ document.getElementById('contact').addEventListener('submit', function (event) {
         
     }
 });
+
+// JavaScript to toggle the mobile menu
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+hamburgerMenu.addEventListener('click', () => {
+  mobileMenu.classList.toggle('show');
+});
